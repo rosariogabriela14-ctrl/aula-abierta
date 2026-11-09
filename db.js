@@ -6,7 +6,7 @@
  * el almacenamiento local del navegador por llamadas a una API REST / Supabase.
  */
 
-const DB_NAME = 'AulaAbiertaDB';
+const DB_NAME = 'ElRinconDeLasLetrasDB';
 const DB_VERSION = 1;
 
 class StorageService {
@@ -101,8 +101,8 @@ class StorageService {
           status: 'published', // 'published', 'draft', 'scheduled'
           coverImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80',
           coverAlt: 'Esquema y paisaje del ciclo hidrológico en la naturaleza',
-          author: 'Lic. Ramona Almonte',
-          role: 'Especialista en Didáctica',
+          author: 'Gabriela Del Rosario',
+          role: 'Docente de Lengua Española',
           views: 2450,
           createdAt: new Date('2025-03-14T08:30:00Z').getTime(),
           content: `
@@ -182,11 +182,11 @@ class StorageService {
             <h2>5. Síntesis y Compromiso Ciudadano</h2>
             <p>El ciclo hidrológico no es estático; se ve directamente impactado por la deforestación de nuestras lomas, la contaminación por plásticos en cañadas y ríos, y el calentamiento global. Cada árbol que sembramos en nuestras escuelas es un regulador del ciclo; cada botella plástica que recogemos de un arroyo es una barrera menos para el flujo natural del agua.</p>
 
-            <div style="background:linear-gradient(135deg,#ede9fe,#e0f2fe);padding:20px;border-radius:10px;margin:24px 0;">
-              <h4 style="margin:0 0 12px;color:#5b21b6;">📊 Rúbrica de Evaluación Formativa</h4>
+            <div style="background:linear-gradient(135deg,#dbeafe,#e0f2fe);padding:20px;border-radius:10px;margin:24px 0;">
+              <h4 style="margin:0 0 12px;color:#1e3a8a;">📊 Rúbrica de Evaluación Formativa</h4>
               <table style="width:100%;border-collapse:collapse;font-size:14px;">
                 <thead>
-                  <tr style="background:#8b5cf6;color:#fff;">
+                  <tr style="background:#2563eb;color:#fff;">
                     <th style="padding:8px;text-align:left;border-radius:6px 0 0 0;">Criterio</th>
                     <th style="padding:8px;text-align:center;">Avanzado (4)</th>
                     <th style="padding:8px;text-align:center;">Satisfactorio (3)</th>
@@ -278,8 +278,8 @@ class StorageService {
           status: 'draft',
           coverImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
           coverAlt: 'Paisaje de manglar rojo costero',
-          author: 'Lic. Ramona Almonte',
-          role: 'Especialista en Didáctica',
+          author: 'Gabriela Del Rosario',
+          role: 'Docente de Lengua Española',
           views: 0,
           createdAt: new Date('2025-03-15T09:00:00Z').getTime(),
           content: `
@@ -385,13 +385,13 @@ class StorageService {
       if (settingsCount === 0) {
         await this._putRaw('settings', {
           key: 'teacherProfile',
-          name: 'Lic. Ramona Almonte',
-          title: 'Lic.',
-          role: 'Especialista en Didáctica',
-          specialty: 'Educación Primaria • Mención Ciencias',
-          school: 'Distrito Educativo 10-01',
-          yearsExperience: 14,
-          bio: 'Educar con ternura y firmeza es encender una antorcha que nunca dejará de alumbrar el porvenir de nuestra patria.',
+          name: 'Gabriela Del Rosario',
+          title: '',
+          role: 'Docente de Lengua Española',
+          specialty: 'Lengua Española • 1.º, 4.º, 5.º y 6.º grado',
+          school: 'Distrito 1001',
+          yearsExperience: 0,
+          bio: 'Docente de Lengua Española en 1.º, 4.º, 5.º y 6.º grado.',
           photoUrl: '',
           updatedAt: Date.now()
         });
