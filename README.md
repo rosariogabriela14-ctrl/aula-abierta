@@ -1,6 +1,6 @@
-# El Rincón de las Letras — Mi Blog Docente
+# Aula Abierta — Mi Blog Docente
 
-Blog educativo para docentes de nivel primario y secundario en República Dominicana.
+Blog educativo de Gabriela Del Rosario, docente de Lengua Española del Distrito 1001, con lecturas, recursos y actividades para 1.º, 4.º, 5.º y 6.º grado de primaria.
 
 ## Pantallas
 
